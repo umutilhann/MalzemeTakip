@@ -14,7 +14,7 @@ namespace ProjeDeneme
 {
     public partial class ManagementForm : Form
     {
-        string conString = "Data Source=UMT---TMU\\SQLEXPRESS;Initial Catalog=MaindDB;Integrated Security=True;Trust Server Certificate=True;";
+        string conString = "SERVER(MaindDB);";
         public ManagementForm()
         {
             InitializeComponent();
