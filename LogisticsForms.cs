@@ -15,8 +15,8 @@ namespace ProjeDeneme
     
     public partial class LogisticsForms : Form
     {
-        string productionCon = "Data Source=UMT---TMU\\SQLEXPRESS;Initial Catalog=ProductionDB;Integrated Security=True;Trust Server Certificate=True;";
-        string mainCon = "Data Source=UMT---TMU\\SQLEXPRESS;Initial Catalog=MaindDB;Integrated Security=True;Trust Server Certificate=True;";
+        string productionCon = "SERVER(ProductionDB);";
+        string mainCon = "SERVER(MaindDB);";
 
         DataTable dt = new DataTable();
 
